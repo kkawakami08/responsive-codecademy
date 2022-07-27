@@ -14,6 +14,7 @@
 
 img {
   max-width: 100%;
+  border-radius: 20px;
 }
 
 .nav {
@@ -45,11 +46,11 @@ img {
 .main {
   position: relative;
   top: 3.5em;
+  background-color: var(--white);
 }
 
 .splash {
   background-image: url("/resources/images/space-bg.jpg");
-  color: var(--white);
   height: 100vh;
   display: flex;
   align-items: center;
@@ -61,6 +62,13 @@ img {
 .splash h1 {
   color: yellow;
   font-size: 2.5em;
+}
+
+.images {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
 }
 
 @media screen {
