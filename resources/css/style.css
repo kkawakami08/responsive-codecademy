@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  --dark: #00236d;
+  --light: #5468b1;
+  --white: #e5e5ec;
+  --brown: #938288;
+  --gray: #767682;
+  font-family: "Inter", sans-serif;
+}
