@@ -8,3 +8,18 @@
   --gray: #767682;
   font-family: "Inter", sans-serif;
 }
+
+/*phone styling*/
+
+@media screen {
+  /*tablet*/
+  @media (min-width: 640px) {
+  }
+
+  /*laptop*/
+  @media (min-width: 768px) {
+  }
+  /*desktop*/
+  @media (min-width: 1024px) {
+  }
+}
