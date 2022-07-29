@@ -8,6 +8,7 @@
   --gray: #767682;
   font-family: "Inter", sans-serif;
   box-sizing: border-box;
+  text-align: center;
 }
 
 /*phone styling*/
@@ -15,6 +16,10 @@
 img {
   max-width: 100%;
   border-radius: 20px;
+}
+
+h2 {
+  padding-bottom: 1em;
 }
 
 .nav {
@@ -34,6 +39,7 @@ img {
 
 .nav img {
   height: 2em;
+  border-radius: 0;
 }
 
 .nav li {
@@ -55,7 +61,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
   padding: 1em;
 }
 
@@ -64,11 +69,42 @@ img {
   font-size: 2.5em;
 }
 
-.images {
+.images,
+.president {
   padding: 2em;
   display: flex;
   flex-direction: column;
   gap: 2em;
+}
+
+.about {
+  background-color: var(--light);
+  color: var(--white);
+  padding: 2em;
+}
+
+.president {
+  background: var(--gray);
+  color: var(--white);
+}
+
+.info {
+  padding: 2em;
+  background-color: var(--dark);
+  color: var(--white);
+}
+
+.contact {
+  padding: 2em;
+  background-color: var(--white);
+  color: var(--dark);
+}
+
+.footer {
+  background-color: var(--dark);
+  color: var(--white);
+  padding: 1em;
+  font-size: 0.5em;
 }
 
 @media screen {
