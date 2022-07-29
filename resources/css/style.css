@@ -66,6 +66,7 @@ h2 {
 
 .splash {
   background-image: url("/resources/images/space-bg.jpg");
+  background-attachment: fixed;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -117,14 +118,30 @@ h2 {
 }
 
 @media screen {
-  /*tablet*/
-  @media (min-width: 640px) {
-  }
-
-  /*laptop*/
-  @media (min-width: 768px) {
-  }
   /*desktop*/
   @media (min-width: 1024px) {
+    .splash {
+      height: 50vh;
+    }
+
+    .images {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      align-items: center;
+    }
+
+    .about {
+      padding: 5em 15em;
+    }
+
+    .president {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+    }
+
+    .president div {
+      padding: 0 4em;
+    }
   }
 }
