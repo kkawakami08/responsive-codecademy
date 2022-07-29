@@ -18,6 +18,15 @@ img {
   border-radius: 20px;
 }
 
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+a:hover {
+  color: yellow;
+}
+
 h2 {
   padding-bottom: 1em;
 }
